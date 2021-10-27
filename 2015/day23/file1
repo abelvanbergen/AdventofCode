@@ -1,0 +1,2970 @@
+jio a, +22
+a: 0 b: 0
+inc a
+a: 1 b: 0
+tpl a
+a: 3 b: 0
+tpl a
+a: 9 b: 0
+tpl a
+a: 27 b: 0
+inc a
+a: 28 b: 0
+tpl a
+a: 84 b: 0
+inc a
+a: 85 b: 0
+tpl a
+a: 255 b: 0
+inc a
+a: 256 b: 0
+inc a
+a: 257 b: 0
+tpl a
+a: 771 b: 0
+inc a
+a: 772 b: 0
+inc a
+a: 773 b: 0
+tpl a
+a: 2319 b: 0
+inc a
+a: 2320 b: 0
+inc a
+a: 2321 b: 0
+tpl a
+a: 6963 b: 0
+inc a
+a: 6964 b: 0
+inc a
+a: 6965 b: 0
+tpl a
+a: 20895 b: 0
+jmp +19
+a: 20895 b: 0
+jio a, +8
+a: 20895 b: 0
+inc b
+a: 20895 b: 1
+jie a, +4
+a: 20895 b: 1
+tpl a
+a: 62685 b: 1
+inc a
+a: 62686 b: 1
+jmp +2
+a: 62686 b: 1
+jmp -7
+a: 62686 b: 1
+jio a, +8
+a: 62686 b: 1
+inc b
+a: 62686 b: 2
+jie a, +4
+a: 62686 b: 2
+hlf a
+a: 31343 b: 2
+jmp -7
+a: 31343 b: 2
+jio a, +8
+a: 31343 b: 2
+inc b
+a: 31343 b: 3
+jie a, +4
+a: 31343 b: 3
+tpl a
+a: 94029 b: 3
+inc a
+a: 94030 b: 3
+jmp +2
+a: 94030 b: 3
+jmp -7
+a: 94030 b: 3
+jio a, +8
+a: 94030 b: 3
+inc b
+a: 94030 b: 4
+jie a, +4
+a: 94030 b: 4
+hlf a
+a: 47015 b: 4
+jmp -7
+a: 47015 b: 4
+jio a, +8
+a: 47015 b: 4
+inc b
+a: 47015 b: 5
+jie a, +4
+a: 47015 b: 5
+tpl a
+a: 141045 b: 5
+inc a
+a: 141046 b: 5
+jmp +2
+a: 141046 b: 5
+jmp -7
+a: 141046 b: 5
+jio a, +8
+a: 141046 b: 5
+inc b
+a: 141046 b: 6
+jie a, +4
+a: 141046 b: 6
+hlf a
+a: 70523 b: 6
+jmp -7
+a: 70523 b: 6
+jio a, +8
+a: 70523 b: 6
+inc b
+a: 70523 b: 7
+jie a, +4
+a: 70523 b: 7
+tpl a
+a: 211569 b: 7
+inc a
+a: 211570 b: 7
+jmp +2
+a: 211570 b: 7
+jmp -7
+a: 211570 b: 7
+jio a, +8
+a: 211570 b: 7
+inc b
+a: 211570 b: 8
+jie a, +4
+a: 211570 b: 8
+hlf a
+a: 105785 b: 8
+jmp -7
+a: 105785 b: 8
+jio a, +8
+a: 105785 b: 8
+inc b
+a: 105785 b: 9
+jie a, +4
+a: 105785 b: 9
+tpl a
+a: 317355 b: 9
+inc a
+a: 317356 b: 9
+jmp +2
+a: 317356 b: 9
+jmp -7
+a: 317356 b: 9
+jio a, +8
+a: 317356 b: 9
+inc b
+a: 317356 b: 10
+jie a, +4
+a: 317356 b: 10
+hlf a
+a: 158678 b: 10
+jmp -7
+a: 158678 b: 10
+jio a, +8
+a: 158678 b: 10
+inc b
+a: 158678 b: 11
+jie a, +4
+a: 158678 b: 11
+hlf a
+a: 79339 b: 11
+jmp -7
+a: 79339 b: 11
+jio a, +8
+a: 79339 b: 11
+inc b
+a: 79339 b: 12
+jie a, +4
+a: 79339 b: 12
+tpl a
+a: 238017 b: 12
+inc a
+a: 238018 b: 12
+jmp +2
+a: 238018 b: 12
+jmp -7
+a: 238018 b: 12
+jio a, +8
+a: 238018 b: 12
+inc b
+a: 238018 b: 13
+jie a, +4
+a: 238018 b: 13
+hlf a
+a: 119009 b: 13
+jmp -7
+a: 119009 b: 13
+jio a, +8
+a: 119009 b: 13
+inc b
+a: 119009 b: 14
+jie a, +4
+a: 119009 b: 14
+tpl a
+a: 357027 b: 14
+inc a
+a: 357028 b: 14
+jmp +2
+a: 357028 b: 14
+jmp -7
+a: 357028 b: 14
+jio a, +8
+a: 357028 b: 14
+inc b
+a: 357028 b: 15
+jie a, +4
+a: 357028 b: 15
+hlf a
+a: 178514 b: 15
+jmp -7
+a: 178514 b: 15
+jio a, +8
+a: 178514 b: 15
+inc b
+a: 178514 b: 16
+jie a, +4
+a: 178514 b: 16
+hlf a
+a: 89257 b: 16
+jmp -7
+a: 89257 b: 16
+jio a, +8
+a: 89257 b: 16
+inc b
+a: 89257 b: 17
+jie a, +4
+a: 89257 b: 17
+tpl a
+a: 267771 b: 17
+inc a
+a: 267772 b: 17
+jmp +2
+a: 267772 b: 17
+jmp -7
+a: 267772 b: 17
+jio a, +8
+a: 267772 b: 17
+inc b
+a: 267772 b: 18
+jie a, +4
+a: 267772 b: 18
+hlf a
+a: 133886 b: 18
+jmp -7
+a: 133886 b: 18
+jio a, +8
+a: 133886 b: 18
+inc b
+a: 133886 b: 19
+jie a, +4
+a: 133886 b: 19
+hlf a
+a: 66943 b: 19
+jmp -7
+a: 66943 b: 19
+jio a, +8
+a: 66943 b: 19
+inc b
+a: 66943 b: 20
+jie a, +4
+a: 66943 b: 20
+tpl a
+a: 200829 b: 20
+inc a
+a: 200830 b: 20
+jmp +2
+a: 200830 b: 20
+jmp -7
+a: 200830 b: 20
+jio a, +8
+a: 200830 b: 20
+inc b
+a: 200830 b: 21
+jie a, +4
+a: 200830 b: 21
+hlf a
+a: 100415 b: 21
+jmp -7
+a: 100415 b: 21
+jio a, +8
+a: 100415 b: 21
+inc b
+a: 100415 b: 22
+jie a, +4
+a: 100415 b: 22
+tpl a
+a: 301245 b: 22
+inc a
+a: 301246 b: 22
+jmp +2
+a: 301246 b: 22
+jmp -7
+a: 301246 b: 22
+jio a, +8
+a: 301246 b: 22
+inc b
+a: 301246 b: 23
+jie a, +4
+a: 301246 b: 23
+hlf a
+a: 150623 b: 23
+jmp -7
+a: 150623 b: 23
+jio a, +8
+a: 150623 b: 23
+inc b
+a: 150623 b: 24
+jie a, +4
+a: 150623 b: 24
+tpl a
+a: 451869 b: 24
+inc a
+a: 451870 b: 24
+jmp +2
+a: 451870 b: 24
+jmp -7
+a: 451870 b: 24
+jio a, +8
+a: 451870 b: 24
+inc b
+a: 451870 b: 25
+jie a, +4
+a: 451870 b: 25
+hlf a
+a: 225935 b: 25
+jmp -7
+a: 225935 b: 25
+jio a, +8
+a: 225935 b: 25
+inc b
+a: 225935 b: 26
+jie a, +4
+a: 225935 b: 26
+tpl a
+a: 677805 b: 26
+inc a
+a: 677806 b: 26
+jmp +2
+a: 677806 b: 26
+jmp -7
+a: 677806 b: 26
+jio a, +8
+a: 677806 b: 26
+inc b
+a: 677806 b: 27
+jie a, +4
+a: 677806 b: 27
+hlf a
+a: 338903 b: 27
+jmp -7
+a: 338903 b: 27
+jio a, +8
+a: 338903 b: 27
+inc b
+a: 338903 b: 28
+jie a, +4
+a: 338903 b: 28
+tpl a
+a: 1016709 b: 28
+inc a
+a: 1016710 b: 28
+jmp +2
+a: 1016710 b: 28
+jmp -7
+a: 1016710 b: 28
+jio a, +8
+a: 1016710 b: 28
+inc b
+a: 1016710 b: 29
+jie a, +4
+a: 1016710 b: 29
+hlf a
+a: 508355 b: 29
+jmp -7
+a: 508355 b: 29
+jio a, +8
+a: 508355 b: 29
+inc b
+a: 508355 b: 30
+jie a, +4
+a: 508355 b: 30
+tpl a
+a: 1525065 b: 30
+inc a
+a: 1525066 b: 30
+jmp +2
+a: 1525066 b: 30
+jmp -7
+a: 1525066 b: 30
+jio a, +8
+a: 1525066 b: 30
+inc b
+a: 1525066 b: 31
+jie a, +4
+a: 1525066 b: 31
+hlf a
+a: 762533 b: 31
+jmp -7
+a: 762533 b: 31
+jio a, +8
+a: 762533 b: 31
+inc b
+a: 762533 b: 32
+jie a, +4
+a: 762533 b: 32
+tpl a
+a: 2287599 b: 32
+inc a
+a: 2287600 b: 32
+jmp +2
+a: 2287600 b: 32
+jmp -7
+a: 2287600 b: 32
+jio a, +8
+a: 2287600 b: 32
+inc b
+a: 2287600 b: 33
+jie a, +4
+a: 2287600 b: 33
+hlf a
+a: 1143800 b: 33
+jmp -7
+a: 1143800 b: 33
+jio a, +8
+a: 1143800 b: 33
+inc b
+a: 1143800 b: 34
+jie a, +4
+a: 1143800 b: 34
+hlf a
+a: 571900 b: 34
+jmp -7
+a: 571900 b: 34
+jio a, +8
+a: 571900 b: 34
+inc b
+a: 571900 b: 35
+jie a, +4
+a: 571900 b: 35
+hlf a
+a: 285950 b: 35
+jmp -7
+a: 285950 b: 35
+jio a, +8
+a: 285950 b: 35
+inc b
+a: 285950 b: 36
+jie a, +4
+a: 285950 b: 36
+hlf a
+a: 142975 b: 36
+jmp -7
+a: 142975 b: 36
+jio a, +8
+a: 142975 b: 36
+inc b
+a: 142975 b: 37
+jie a, +4
+a: 142975 b: 37
+tpl a
+a: 428925 b: 37
+inc a
+a: 428926 b: 37
+jmp +2
+a: 428926 b: 37
+jmp -7
+a: 428926 b: 37
+jio a, +8
+a: 428926 b: 37
+inc b
+a: 428926 b: 38
+jie a, +4
+a: 428926 b: 38
+hlf a
+a: 214463 b: 38
+jmp -7
+a: 214463 b: 38
+jio a, +8
+a: 214463 b: 38
+inc b
+a: 214463 b: 39
+jie a, +4
+a: 214463 b: 39
+tpl a
+a: 643389 b: 39
+inc a
+a: 643390 b: 39
+jmp +2
+a: 643390 b: 39
+jmp -7
+a: 643390 b: 39
+jio a, +8
+a: 643390 b: 39
+inc b
+a: 643390 b: 40
+jie a, +4
+a: 643390 b: 40
+hlf a
+a: 321695 b: 40
+jmp -7
+a: 321695 b: 40
+jio a, +8
+a: 321695 b: 40
+inc b
+a: 321695 b: 41
+jie a, +4
+a: 321695 b: 41
+tpl a
+a: 965085 b: 41
+inc a
+a: 965086 b: 41
+jmp +2
+a: 965086 b: 41
+jmp -7
+a: 965086 b: 41
+jio a, +8
+a: 965086 b: 41
+inc b
+a: 965086 b: 42
+jie a, +4
+a: 965086 b: 42
+hlf a
+a: 482543 b: 42
+jmp -7
+a: 482543 b: 42
+jio a, +8
+a: 482543 b: 42
+inc b
+a: 482543 b: 43
+jie a, +4
+a: 482543 b: 43
+tpl a
+a: 1447629 b: 43
+inc a
+a: 1447630 b: 43
+jmp +2
+a: 1447630 b: 43
+jmp -7
+a: 1447630 b: 43
+jio a, +8
+a: 1447630 b: 43
+inc b
+a: 1447630 b: 44
+jie a, +4
+a: 1447630 b: 44
+hlf a
+a: 723815 b: 44
+jmp -7
+a: 723815 b: 44
+jio a, +8
+a: 723815 b: 44
+inc b
+a: 723815 b: 45
+jie a, +4
+a: 723815 b: 45
+tpl a
+a: 2171445 b: 45
+inc a
+a: 2171446 b: 45
+jmp +2
+a: 2171446 b: 45
+jmp -7
+a: 2171446 b: 45
+jio a, +8
+a: 2171446 b: 45
+inc b
+a: 2171446 b: 46
+jie a, +4
+a: 2171446 b: 46
+hlf a
+a: 1085723 b: 46
+jmp -7
+a: 1085723 b: 46
+jio a, +8
+a: 1085723 b: 46
+inc b
+a: 1085723 b: 47
+jie a, +4
+a: 1085723 b: 47
+tpl a
+a: 3257169 b: 47
+inc a
+a: 3257170 b: 47
+jmp +2
+a: 3257170 b: 47
+jmp -7
+a: 3257170 b: 47
+jio a, +8
+a: 3257170 b: 47
+inc b
+a: 3257170 b: 48
+jie a, +4
+a: 3257170 b: 48
+hlf a
+a: 1628585 b: 48
+jmp -7
+a: 1628585 b: 48
+jio a, +8
+a: 1628585 b: 48
+inc b
+a: 1628585 b: 49
+jie a, +4
+a: 1628585 b: 49
+tpl a
+a: 4885755 b: 49
+inc a
+a: 4885756 b: 49
+jmp +2
+a: 4885756 b: 49
+jmp -7
+a: 4885756 b: 49
+jio a, +8
+a: 4885756 b: 49
+inc b
+a: 4885756 b: 50
+jie a, +4
+a: 4885756 b: 50
+hlf a
+a: 2442878 b: 50
+jmp -7
+a: 2442878 b: 50
+jio a, +8
+a: 2442878 b: 50
+inc b
+a: 2442878 b: 51
+jie a, +4
+a: 2442878 b: 51
+hlf a
+a: 1221439 b: 51
+jmp -7
+a: 1221439 b: 51
+jio a, +8
+a: 1221439 b: 51
+inc b
+a: 1221439 b: 52
+jie a, +4
+a: 1221439 b: 52
+tpl a
+a: 3664317 b: 52
+inc a
+a: 3664318 b: 52
+jmp +2
+a: 3664318 b: 52
+jmp -7
+a: 3664318 b: 52
+jio a, +8
+a: 3664318 b: 52
+inc b
+a: 3664318 b: 53
+jie a, +4
+a: 3664318 b: 53
+hlf a
+a: 1832159 b: 53
+jmp -7
+a: 1832159 b: 53
+jio a, +8
+a: 1832159 b: 53
+inc b
+a: 1832159 b: 54
+jie a, +4
+a: 1832159 b: 54
+tpl a
+a: 5496477 b: 54
+inc a
+a: 5496478 b: 54
+jmp +2
+a: 5496478 b: 54
+jmp -7
+a: 5496478 b: 54
+jio a, +8
+a: 5496478 b: 54
+inc b
+a: 5496478 b: 55
+jie a, +4
+a: 5496478 b: 55
+hlf a
+a: 2748239 b: 55
+jmp -7
+a: 2748239 b: 55
+jio a, +8
+a: 2748239 b: 55
+inc b
+a: 2748239 b: 56
+jie a, +4
+a: 2748239 b: 56
+tpl a
+a: 8244717 b: 56
+inc a
+a: 8244718 b: 56
+jmp +2
+a: 8244718 b: 56
+jmp -7
+a: 8244718 b: 56
+jio a, +8
+a: 8244718 b: 56
+inc b
+a: 8244718 b: 57
+jie a, +4
+a: 8244718 b: 57
+hlf a
+a: 4122359 b: 57
+jmp -7
+a: 4122359 b: 57
+jio a, +8
+a: 4122359 b: 57
+inc b
+a: 4122359 b: 58
+jie a, +4
+a: 4122359 b: 58
+tpl a
+a: 12367077 b: 58
+inc a
+a: 12367078 b: 58
+jmp +2
+a: 12367078 b: 58
+jmp -7
+a: 12367078 b: 58
+jio a, +8
+a: 12367078 b: 58
+inc b
+a: 12367078 b: 59
+jie a, +4
+a: 12367078 b: 59
+hlf a
+a: 6183539 b: 59
+jmp -7
+a: 6183539 b: 59
+jio a, +8
+a: 6183539 b: 59
+inc b
+a: 6183539 b: 60
+jie a, +4
+a: 6183539 b: 60
+tpl a
+a: 18550617 b: 60
+inc a
+a: 18550618 b: 60
+jmp +2
+a: 18550618 b: 60
+jmp -7
+a: 18550618 b: 60
+jio a, +8
+a: 18550618 b: 60
+inc b
+a: 18550618 b: 61
+jie a, +4
+a: 18550618 b: 61
+hlf a
+a: 9275309 b: 61
+jmp -7
+a: 9275309 b: 61
+jio a, +8
+a: 9275309 b: 61
+inc b
+a: 9275309 b: 62
+jie a, +4
+a: 9275309 b: 62
+tpl a
+a: 27825927 b: 62
+inc a
+a: 27825928 b: 62
+jmp +2
+a: 27825928 b: 62
+jmp -7
+a: 27825928 b: 62
+jio a, +8
+a: 27825928 b: 62
+inc b
+a: 27825928 b: 63
+jie a, +4
+a: 27825928 b: 63
+hlf a
+a: 13912964 b: 63
+jmp -7
+a: 13912964 b: 63
+jio a, +8
+a: 13912964 b: 63
+inc b
+a: 13912964 b: 64
+jie a, +4
+a: 13912964 b: 64
+hlf a
+a: 6956482 b: 64
+jmp -7
+a: 6956482 b: 64
+jio a, +8
+a: 6956482 b: 64
+inc b
+a: 6956482 b: 65
+jie a, +4
+a: 6956482 b: 65
+hlf a
+a: 3478241 b: 65
+jmp -7
+a: 3478241 b: 65
+jio a, +8
+a: 3478241 b: 65
+inc b
+a: 3478241 b: 66
+jie a, +4
+a: 3478241 b: 66
+tpl a
+a: 10434723 b: 66
+inc a
+a: 10434724 b: 66
+jmp +2
+a: 10434724 b: 66
+jmp -7
+a: 10434724 b: 66
+jio a, +8
+a: 10434724 b: 66
+inc b
+a: 10434724 b: 67
+jie a, +4
+a: 10434724 b: 67
+hlf a
+a: 5217362 b: 67
+jmp -7
+a: 5217362 b: 67
+jio a, +8
+a: 5217362 b: 67
+inc b
+a: 5217362 b: 68
+jie a, +4
+a: 5217362 b: 68
+hlf a
+a: 2608681 b: 68
+jmp -7
+a: 2608681 b: 68
+jio a, +8
+a: 2608681 b: 68
+inc b
+a: 2608681 b: 69
+jie a, +4
+a: 2608681 b: 69
+tpl a
+a: 7826043 b: 69
+inc a
+a: 7826044 b: 69
+jmp +2
+a: 7826044 b: 69
+jmp -7
+a: 7826044 b: 69
+jio a, +8
+a: 7826044 b: 69
+inc b
+a: 7826044 b: 70
+jie a, +4
+a: 7826044 b: 70
+hlf a
+a: 3913022 b: 70
+jmp -7
+a: 3913022 b: 70
+jio a, +8
+a: 3913022 b: 70
+inc b
+a: 3913022 b: 71
+jie a, +4
+a: 3913022 b: 71
+hlf a
+a: 1956511 b: 71
+jmp -7
+a: 1956511 b: 71
+jio a, +8
+a: 1956511 b: 71
+inc b
+a: 1956511 b: 72
+jie a, +4
+a: 1956511 b: 72
+tpl a
+a: 5869533 b: 72
+inc a
+a: 5869534 b: 72
+jmp +2
+a: 5869534 b: 72
+jmp -7
+a: 5869534 b: 72
+jio a, +8
+a: 5869534 b: 72
+inc b
+a: 5869534 b: 73
+jie a, +4
+a: 5869534 b: 73
+hlf a
+a: 2934767 b: 73
+jmp -7
+a: 2934767 b: 73
+jio a, +8
+a: 2934767 b: 73
+inc b
+a: 2934767 b: 74
+jie a, +4
+a: 2934767 b: 74
+tpl a
+a: 8804301 b: 74
+inc a
+a: 8804302 b: 74
+jmp +2
+a: 8804302 b: 74
+jmp -7
+a: 8804302 b: 74
+jio a, +8
+a: 8804302 b: 74
+inc b
+a: 8804302 b: 75
+jie a, +4
+a: 8804302 b: 75
+hlf a
+a: 4402151 b: 75
+jmp -7
+a: 4402151 b: 75
+jio a, +8
+a: 4402151 b: 75
+inc b
+a: 4402151 b: 76
+jie a, +4
+a: 4402151 b: 76
+tpl a
+a: 13206453 b: 76
+inc a
+a: 13206454 b: 76
+jmp +2
+a: 13206454 b: 76
+jmp -7
+a: 13206454 b: 76
+jio a, +8
+a: 13206454 b: 76
+inc b
+a: 13206454 b: 77
+jie a, +4
+a: 13206454 b: 77
+hlf a
+a: 6603227 b: 77
+jmp -7
+a: 6603227 b: 77
+jio a, +8
+a: 6603227 b: 77
+inc b
+a: 6603227 b: 78
+jie a, +4
+a: 6603227 b: 78
+tpl a
+a: 19809681 b: 78
+inc a
+a: 19809682 b: 78
+jmp +2
+a: 19809682 b: 78
+jmp -7
+a: 19809682 b: 78
+jio a, +8
+a: 19809682 b: 78
+inc b
+a: 19809682 b: 79
+jie a, +4
+a: 19809682 b: 79
+hlf a
+a: 9904841 b: 79
+jmp -7
+a: 9904841 b: 79
+jio a, +8
+a: 9904841 b: 79
+inc b
+a: 9904841 b: 80
+jie a, +4
+a: 9904841 b: 80
+tpl a
+a: 29714523 b: 80
+inc a
+a: 29714524 b: 80
+jmp +2
+a: 29714524 b: 80
+jmp -7
+a: 29714524 b: 80
+jio a, +8
+a: 29714524 b: 80
+inc b
+a: 29714524 b: 81
+jie a, +4
+a: 29714524 b: 81
+hlf a
+a: 14857262 b: 81
+jmp -7
+a: 14857262 b: 81
+jio a, +8
+a: 14857262 b: 81
+inc b
+a: 14857262 b: 82
+jie a, +4
+a: 14857262 b: 82
+hlf a
+a: 7428631 b: 82
+jmp -7
+a: 7428631 b: 82
+jio a, +8
+a: 7428631 b: 82
+inc b
+a: 7428631 b: 83
+jie a, +4
+a: 7428631 b: 83
+tpl a
+a: 22285893 b: 83
+inc a
+a: 22285894 b: 83
+jmp +2
+a: 22285894 b: 83
+jmp -7
+a: 22285894 b: 83
+jio a, +8
+a: 22285894 b: 83
+inc b
+a: 22285894 b: 84
+jie a, +4
+a: 22285894 b: 84
+hlf a
+a: 11142947 b: 84
+jmp -7
+a: 11142947 b: 84
+jio a, +8
+a: 11142947 b: 84
+inc b
+a: 11142947 b: 85
+jie a, +4
+a: 11142947 b: 85
+tpl a
+a: 33428841 b: 85
+inc a
+a: 33428842 b: 85
+jmp +2
+a: 33428842 b: 85
+jmp -7
+a: 33428842 b: 85
+jio a, +8
+a: 33428842 b: 85
+inc b
+a: 33428842 b: 86
+jie a, +4
+a: 33428842 b: 86
+hlf a
+a: 16714421 b: 86
+jmp -7
+a: 16714421 b: 86
+jio a, +8
+a: 16714421 b: 86
+inc b
+a: 16714421 b: 87
+jie a, +4
+a: 16714421 b: 87
+tpl a
+a: 50143263 b: 87
+inc a
+a: 50143264 b: 87
+jmp +2
+a: 50143264 b: 87
+jmp -7
+a: 50143264 b: 87
+jio a, +8
+a: 50143264 b: 87
+inc b
+a: 50143264 b: 88
+jie a, +4
+a: 50143264 b: 88
+hlf a
+a: 25071632 b: 88
+jmp -7
+a: 25071632 b: 88
+jio a, +8
+a: 25071632 b: 88
+inc b
+a: 25071632 b: 89
+jie a, +4
+a: 25071632 b: 89
+hlf a
+a: 12535816 b: 89
+jmp -7
+a: 12535816 b: 89
+jio a, +8
+a: 12535816 b: 89
+inc b
+a: 12535816 b: 90
+jie a, +4
+a: 12535816 b: 90
+hlf a
+a: 6267908 b: 90
+jmp -7
+a: 6267908 b: 90
+jio a, +8
+a: 6267908 b: 90
+inc b
+a: 6267908 b: 91
+jie a, +4
+a: 6267908 b: 91
+hlf a
+a: 3133954 b: 91
+jmp -7
+a: 3133954 b: 91
+jio a, +8
+a: 3133954 b: 91
+inc b
+a: 3133954 b: 92
+jie a, +4
+a: 3133954 b: 92
+hlf a
+a: 1566977 b: 92
+jmp -7
+a: 1566977 b: 92
+jio a, +8
+a: 1566977 b: 92
+inc b
+a: 1566977 b: 93
+jie a, +4
+a: 1566977 b: 93
+tpl a
+a: 4700931 b: 93
+inc a
+a: 4700932 b: 93
+jmp +2
+a: 4700932 b: 93
+jmp -7
+a: 4700932 b: 93
+jio a, +8
+a: 4700932 b: 93
+inc b
+a: 4700932 b: 94
+jie a, +4
+a: 4700932 b: 94
+hlf a
+a: 2350466 b: 94
+jmp -7
+a: 2350466 b: 94
+jio a, +8
+a: 2350466 b: 94
+inc b
+a: 2350466 b: 95
+jie a, +4
+a: 2350466 b: 95
+hlf a
+a: 1175233 b: 95
+jmp -7
+a: 1175233 b: 95
+jio a, +8
+a: 1175233 b: 95
+inc b
+a: 1175233 b: 96
+jie a, +4
+a: 1175233 b: 96
+tpl a
+a: 3525699 b: 96
+inc a
+a: 3525700 b: 96
+jmp +2
+a: 3525700 b: 96
+jmp -7
+a: 3525700 b: 96
+jio a, +8
+a: 3525700 b: 96
+inc b
+a: 3525700 b: 97
+jie a, +4
+a: 3525700 b: 97
+hlf a
+a: 1762850 b: 97
+jmp -7
+a: 1762850 b: 97
+jio a, +8
+a: 1762850 b: 97
+inc b
+a: 1762850 b: 98
+jie a, +4
+a: 1762850 b: 98
+hlf a
+a: 881425 b: 98
+jmp -7
+a: 881425 b: 98
+jio a, +8
+a: 881425 b: 98
+inc b
+a: 881425 b: 99
+jie a, +4
+a: 881425 b: 99
+tpl a
+a: 2644275 b: 99
+inc a
+a: 2644276 b: 99
+jmp +2
+a: 2644276 b: 99
+jmp -7
+a: 2644276 b: 99
+jio a, +8
+a: 2644276 b: 99
+inc b
+a: 2644276 b: 100
+jie a, +4
+a: 2644276 b: 100
+hlf a
+a: 1322138 b: 100
+jmp -7
+a: 1322138 b: 100
+jio a, +8
+a: 1322138 b: 100
+inc b
+a: 1322138 b: 101
+jie a, +4
+a: 1322138 b: 101
+hlf a
+a: 661069 b: 101
+jmp -7
+a: 661069 b: 101
+jio a, +8
+a: 661069 b: 101
+inc b
+a: 661069 b: 102
+jie a, +4
+a: 661069 b: 102
+tpl a
+a: 1983207 b: 102
+inc a
+a: 1983208 b: 102
+jmp +2
+a: 1983208 b: 102
+jmp -7
+a: 1983208 b: 102
+jio a, +8
+a: 1983208 b: 102
+inc b
+a: 1983208 b: 103
+jie a, +4
+a: 1983208 b: 103
+hlf a
+a: 991604 b: 103
+jmp -7
+a: 991604 b: 103
+jio a, +8
+a: 991604 b: 103
+inc b
+a: 991604 b: 104
+jie a, +4
+a: 991604 b: 104
+hlf a
+a: 495802 b: 104
+jmp -7
+a: 495802 b: 104
+jio a, +8
+a: 495802 b: 104
+inc b
+a: 495802 b: 105
+jie a, +4
+a: 495802 b: 105
+hlf a
+a: 247901 b: 105
+jmp -7
+a: 247901 b: 105
+jio a, +8
+a: 247901 b: 105
+inc b
+a: 247901 b: 106
+jie a, +4
+a: 247901 b: 106
+tpl a
+a: 743703 b: 106
+inc a
+a: 743704 b: 106
+jmp +2
+a: 743704 b: 106
+jmp -7
+a: 743704 b: 106
+jio a, +8
+a: 743704 b: 106
+inc b
+a: 743704 b: 107
+jie a, +4
+a: 743704 b: 107
+hlf a
+a: 371852 b: 107
+jmp -7
+a: 371852 b: 107
+jio a, +8
+a: 371852 b: 107
+inc b
+a: 371852 b: 108
+jie a, +4
+a: 371852 b: 108
+hlf a
+a: 185926 b: 108
+jmp -7
+a: 185926 b: 108
+jio a, +8
+a: 185926 b: 108
+inc b
+a: 185926 b: 109
+jie a, +4
+a: 185926 b: 109
+hlf a
+a: 92963 b: 109
+jmp -7
+a: 92963 b: 109
+jio a, +8
+a: 92963 b: 109
+inc b
+a: 92963 b: 110
+jie a, +4
+a: 92963 b: 110
+tpl a
+a: 278889 b: 110
+inc a
+a: 278890 b: 110
+jmp +2
+a: 278890 b: 110
+jmp -7
+a: 278890 b: 110
+jio a, +8
+a: 278890 b: 110
+inc b
+a: 278890 b: 111
+jie a, +4
+a: 278890 b: 111
+hlf a
+a: 139445 b: 111
+jmp -7
+a: 139445 b: 111
+jio a, +8
+a: 139445 b: 111
+inc b
+a: 139445 b: 112
+jie a, +4
+a: 139445 b: 112
+tpl a
+a: 418335 b: 112
+inc a
+a: 418336 b: 112
+jmp +2
+a: 418336 b: 112
+jmp -7
+a: 418336 b: 112
+jio a, +8
+a: 418336 b: 112
+inc b
+a: 418336 b: 113
+jie a, +4
+a: 418336 b: 113
+hlf a
+a: 209168 b: 113
+jmp -7
+a: 209168 b: 113
+jio a, +8
+a: 209168 b: 113
+inc b
+a: 209168 b: 114
+jie a, +4
+a: 209168 b: 114
+hlf a
+a: 104584 b: 114
+jmp -7
+a: 104584 b: 114
+jio a, +8
+a: 104584 b: 114
+inc b
+a: 104584 b: 115
+jie a, +4
+a: 104584 b: 115
+hlf a
+a: 52292 b: 115
+jmp -7
+a: 52292 b: 115
+jio a, +8
+a: 52292 b: 115
+inc b
+a: 52292 b: 116
+jie a, +4
+a: 52292 b: 116
+hlf a
+a: 26146 b: 116
+jmp -7
+a: 26146 b: 116
+jio a, +8
+a: 26146 b: 116
+inc b
+a: 26146 b: 117
+jie a, +4
+a: 26146 b: 117
+hlf a
+a: 13073 b: 117
+jmp -7
+a: 13073 b: 117
+jio a, +8
+a: 13073 b: 117
+inc b
+a: 13073 b: 118
+jie a, +4
+a: 13073 b: 118
+tpl a
+a: 39219 b: 118
+inc a
+a: 39220 b: 118
+jmp +2
+a: 39220 b: 118
+jmp -7
+a: 39220 b: 118
+jio a, +8
+a: 39220 b: 118
+inc b
+a: 39220 b: 119
+jie a, +4
+a: 39220 b: 119
+hlf a
+a: 19610 b: 119
+jmp -7
+a: 19610 b: 119
+jio a, +8
+a: 19610 b: 119
+inc b
+a: 19610 b: 120
+jie a, +4
+a: 19610 b: 120
+hlf a
+a: 9805 b: 120
+jmp -7
+a: 9805 b: 120
+jio a, +8
+a: 9805 b: 120
+inc b
+a: 9805 b: 121
+jie a, +4
+a: 9805 b: 121
+tpl a
+a: 29415 b: 121
+inc a
+a: 29416 b: 121
+jmp +2
+a: 29416 b: 121
+jmp -7
+a: 29416 b: 121
+jio a, +8
+a: 29416 b: 121
+inc b
+a: 29416 b: 122
+jie a, +4
+a: 29416 b: 122
+hlf a
+a: 14708 b: 122
+jmp -7
+a: 14708 b: 122
+jio a, +8
+a: 14708 b: 122
+inc b
+a: 14708 b: 123
+jie a, +4
+a: 14708 b: 123
+hlf a
+a: 7354 b: 123
+jmp -7
+a: 7354 b: 123
+jio a, +8
+a: 7354 b: 123
+inc b
+a: 7354 b: 124
+jie a, +4
+a: 7354 b: 124
+hlf a
+a: 3677 b: 124
+jmp -7
+a: 3677 b: 124
+jio a, +8
+a: 3677 b: 124
+inc b
+a: 3677 b: 125
+jie a, +4
+a: 3677 b: 125
+tpl a
+a: 11031 b: 125
+inc a
+a: 11032 b: 125
+jmp +2
+a: 11032 b: 125
+jmp -7
+a: 11032 b: 125
+jio a, +8
+a: 11032 b: 125
+inc b
+a: 11032 b: 126
+jie a, +4
+a: 11032 b: 126
+hlf a
+a: 5516 b: 126
+jmp -7
+a: 5516 b: 126
+jio a, +8
+a: 5516 b: 126
+inc b
+a: 5516 b: 127
+jie a, +4
+a: 5516 b: 127
+hlf a
+a: 2758 b: 127
+jmp -7
+a: 2758 b: 127
+jio a, +8
+a: 2758 b: 127
+inc b
+a: 2758 b: 128
+jie a, +4
+a: 2758 b: 128
+hlf a
+a: 1379 b: 128
+jmp -7
+a: 1379 b: 128
+jio a, +8
+a: 1379 b: 128
+inc b
+a: 1379 b: 129
+jie a, +4
+a: 1379 b: 129
+tpl a
+a: 4137 b: 129
+inc a
+a: 4138 b: 129
+jmp +2
+a: 4138 b: 129
+jmp -7
+a: 4138 b: 129
+jio a, +8
+a: 4138 b: 129
+inc b
+a: 4138 b: 130
+jie a, +4
+a: 4138 b: 130
+hlf a
+a: 2069 b: 130
+jmp -7
+a: 2069 b: 130
+jio a, +8
+a: 2069 b: 130
+inc b
+a: 2069 b: 131
+jie a, +4
+a: 2069 b: 131
+tpl a
+a: 6207 b: 131
+inc a
+a: 6208 b: 131
+jmp +2
+a: 6208 b: 131
+jmp -7
+a: 6208 b: 131
+jio a, +8
+a: 6208 b: 131
+inc b
+a: 6208 b: 132
+jie a, +4
+a: 6208 b: 132
+hlf a
+a: 3104 b: 132
+jmp -7
+a: 3104 b: 132
+jio a, +8
+a: 3104 b: 132
+inc b
+a: 3104 b: 133
+jie a, +4
+a: 3104 b: 133
+hlf a
+a: 1552 b: 133
+jmp -7
+a: 1552 b: 133
+jio a, +8
+a: 1552 b: 133
+inc b
+a: 1552 b: 134
+jie a, +4
+a: 1552 b: 134
+hlf a
+a: 776 b: 134
+jmp -7
+a: 776 b: 134
+jio a, +8
+a: 776 b: 134
+inc b
+a: 776 b: 135
+jie a, +4
+a: 776 b: 135
+hlf a
+a: 388 b: 135
+jmp -7
+a: 388 b: 135
+jio a, +8
+a: 388 b: 135
+inc b
+a: 388 b: 136
+jie a, +4
+a: 388 b: 136
+hlf a
+a: 194 b: 136
+jmp -7
+a: 194 b: 136
+jio a, +8
+a: 194 b: 136
+inc b
+a: 194 b: 137
+jie a, +4
+a: 194 b: 137
+hlf a
+a: 97 b: 137
+jmp -7
+a: 97 b: 137
+jio a, +8
+a: 97 b: 137
+inc b
+a: 97 b: 138
+jie a, +4
+a: 97 b: 138
+tpl a
+a: 291 b: 138
+inc a
+a: 292 b: 138
+jmp +2
+a: 292 b: 138
+jmp -7
+a: 292 b: 138
+jio a, +8
+a: 292 b: 138
+inc b
+a: 292 b: 139
+jie a, +4
+a: 292 b: 139
+hlf a
+a: 146 b: 139
+jmp -7
+a: 146 b: 139
+jio a, +8
+a: 146 b: 139
+inc b
+a: 146 b: 140
+jie a, +4
+a: 146 b: 140
+hlf a
+a: 73 b: 140
+jmp -7
+a: 73 b: 140
+jio a, +8
+a: 73 b: 140
+inc b
+a: 73 b: 141
+jie a, +4
+a: 73 b: 141
+tpl a
+a: 219 b: 141
+inc a
+a: 220 b: 141
+jmp +2
+a: 220 b: 141
+jmp -7
+a: 220 b: 141
+jio a, +8
+a: 220 b: 141
+inc b
+a: 220 b: 142
+jie a, +4
+a: 220 b: 142
+hlf a
+a: 110 b: 142
+jmp -7
+a: 110 b: 142
+jio a, +8
+a: 110 b: 142
+inc b
+a: 110 b: 143
+jie a, +4
+a: 110 b: 143
+hlf a
+a: 55 b: 143
+jmp -7
+a: 55 b: 143
+jio a, +8
+a: 55 b: 143
+inc b
+a: 55 b: 144
+jie a, +4
+a: 55 b: 144
+tpl a
+a: 165 b: 144
+inc a
+a: 166 b: 144
+jmp +2
+a: 166 b: 144
+jmp -7
+a: 166 b: 144
+jio a, +8
+a: 166 b: 144
+inc b
+a: 166 b: 145
+jie a, +4
+a: 166 b: 145
+hlf a
+a: 83 b: 145
+jmp -7
+a: 83 b: 145
+jio a, +8
+a: 83 b: 145
+inc b
+a: 83 b: 146
+jie a, +4
+a: 83 b: 146
+tpl a
+a: 249 b: 146
+inc a
+a: 250 b: 146
+jmp +2
+a: 250 b: 146
+jmp -7
+a: 250 b: 146
+jio a, +8
+a: 250 b: 146
+inc b
+a: 250 b: 147
+jie a, +4
+a: 250 b: 147
+hlf a
+a: 125 b: 147
+jmp -7
+a: 125 b: 147
+jio a, +8
+a: 125 b: 147
+inc b
+a: 125 b: 148
+jie a, +4
+a: 125 b: 148
+tpl a
+a: 375 b: 148
+inc a
+a: 376 b: 148
+jmp +2
+a: 376 b: 148
+jmp -7
+a: 376 b: 148
+jio a, +8
+a: 376 b: 148
+inc b
+a: 376 b: 149
+jie a, +4
+a: 376 b: 149
+hlf a
+a: 188 b: 149
+jmp -7
+a: 188 b: 149
+jio a, +8
+a: 188 b: 149
+inc b
+a: 188 b: 150
+jie a, +4
+a: 188 b: 150
+hlf a
+a: 94 b: 150
+jmp -7
+a: 94 b: 150
+jio a, +8
+a: 94 b: 150
+inc b
+a: 94 b: 151
+jie a, +4
+a: 94 b: 151
+hlf a
+a: 47 b: 151
+jmp -7
+a: 47 b: 151
+jio a, +8
+a: 47 b: 151
+inc b
+a: 47 b: 152
+jie a, +4
+a: 47 b: 152
+tpl a
+a: 141 b: 152
+inc a
+a: 142 b: 152
+jmp +2
+a: 142 b: 152
+jmp -7
+a: 142 b: 152
+jio a, +8
+a: 142 b: 152
+inc b
+a: 142 b: 153
+jie a, +4
+a: 142 b: 153
+hlf a
+a: 71 b: 153
+jmp -7
+a: 71 b: 153
+jio a, +8
+a: 71 b: 153
+inc b
+a: 71 b: 154
+jie a, +4
+a: 71 b: 154
+tpl a
+a: 213 b: 154
+inc a
+a: 214 b: 154
+jmp +2
+a: 214 b: 154
+jmp -7
+a: 214 b: 154
+jio a, +8
+a: 214 b: 154
+inc b
+a: 214 b: 155
+jie a, +4
+a: 214 b: 155
+hlf a
+a: 107 b: 155
+jmp -7
+a: 107 b: 155
+jio a, +8
+a: 107 b: 155
+inc b
+a: 107 b: 156
+jie a, +4
+a: 107 b: 156
+tpl a
+a: 321 b: 156
+inc a
+a: 322 b: 156
+jmp +2
+a: 322 b: 156
+jmp -7
+a: 322 b: 156
+jio a, +8
+a: 322 b: 156
+inc b
+a: 322 b: 157
+jie a, +4
+a: 322 b: 157
+hlf a
+a: 161 b: 157
+jmp -7
+a: 161 b: 157
+jio a, +8
+a: 161 b: 157
+inc b
+a: 161 b: 158
+jie a, +4
+a: 161 b: 158
+tpl a
+a: 483 b: 158
+inc a
+a: 484 b: 158
+jmp +2
+a: 484 b: 158
+jmp -7
+a: 484 b: 158
+jio a, +8
+a: 484 b: 158
+inc b
+a: 484 b: 159
+jie a, +4
+a: 484 b: 159
+hlf a
+a: 242 b: 159
+jmp -7
+a: 242 b: 159
+jio a, +8
+a: 242 b: 159
+inc b
+a: 242 b: 160
+jie a, +4
+a: 242 b: 160
+hlf a
+a: 121 b: 160
+jmp -7
+a: 121 b: 160
+jio a, +8
+a: 121 b: 160
+inc b
+a: 121 b: 161
+jie a, +4
+a: 121 b: 161
+tpl a
+a: 363 b: 161
+inc a
+a: 364 b: 161
+jmp +2
+a: 364 b: 161
+jmp -7
+a: 364 b: 161
+jio a, +8
+a: 364 b: 161
+inc b
+a: 364 b: 162
+jie a, +4
+a: 364 b: 162
+hlf a
+a: 182 b: 162
+jmp -7
+a: 182 b: 162
+jio a, +8
+a: 182 b: 162
+inc b
+a: 182 b: 163
+jie a, +4
+a: 182 b: 163
+hlf a
+a: 91 b: 163
+jmp -7
+a: 91 b: 163
+jio a, +8
+a: 91 b: 163
+inc b
+a: 91 b: 164
+jie a, +4
+a: 91 b: 164
+tpl a
+a: 273 b: 164
+inc a
+a: 274 b: 164
+jmp +2
+a: 274 b: 164
+jmp -7
+a: 274 b: 164
+jio a, +8
+a: 274 b: 164
+inc b
+a: 274 b: 165
+jie a, +4
+a: 274 b: 165
+hlf a
+a: 137 b: 165
+jmp -7
+a: 137 b: 165
+jio a, +8
+a: 137 b: 165
+inc b
+a: 137 b: 166
+jie a, +4
+a: 137 b: 166
+tpl a
+a: 411 b: 166
+inc a
+a: 412 b: 166
+jmp +2
+a: 412 b: 166
+jmp -7
+a: 412 b: 166
+jio a, +8
+a: 412 b: 166
+inc b
+a: 412 b: 167
+jie a, +4
+a: 412 b: 167
+hlf a
+a: 206 b: 167
+jmp -7
+a: 206 b: 167
+jio a, +8
+a: 206 b: 167
+inc b
+a: 206 b: 168
+jie a, +4
+a: 206 b: 168
+hlf a
+a: 103 b: 168
+jmp -7
+a: 103 b: 168
+jio a, +8
+a: 103 b: 168
+inc b
+a: 103 b: 169
+jie a, +4
+a: 103 b: 169
+tpl a
+a: 309 b: 169
+inc a
+a: 310 b: 169
+jmp +2
+a: 310 b: 169
+jmp -7
+a: 310 b: 169
+jio a, +8
+a: 310 b: 169
+inc b
+a: 310 b: 170
+jie a, +4
+a: 310 b: 170
+hlf a
+a: 155 b: 170
+jmp -7
+a: 155 b: 170
+jio a, +8
+a: 155 b: 170
+inc b
+a: 155 b: 171
+jie a, +4
+a: 155 b: 171
+tpl a
+a: 465 b: 171
+inc a
+a: 466 b: 171
+jmp +2
+a: 466 b: 171
+jmp -7
+a: 466 b: 171
+jio a, +8
+a: 466 b: 171
+inc b
+a: 466 b: 172
+jie a, +4
+a: 466 b: 172
+hlf a
+a: 233 b: 172
+jmp -7
+a: 233 b: 172
+jio a, +8
+a: 233 b: 172
+inc b
+a: 233 b: 173
+jie a, +4
+a: 233 b: 173
+tpl a
+a: 699 b: 173
+inc a
+a: 700 b: 173
+jmp +2
+a: 700 b: 173
+jmp -7
+a: 700 b: 173
+jio a, +8
+a: 700 b: 173
+inc b
+a: 700 b: 174
+jie a, +4
+a: 700 b: 174
+hlf a
+a: 350 b: 174
+jmp -7
+a: 350 b: 174
+jio a, +8
+a: 350 b: 174
+inc b
+a: 350 b: 175
+jie a, +4
+a: 350 b: 175
+hlf a
+a: 175 b: 175
+jmp -7
+a: 175 b: 175
+jio a, +8
+a: 175 b: 175
+inc b
+a: 175 b: 176
+jie a, +4
+a: 175 b: 176
+tpl a
+a: 525 b: 176
+inc a
+a: 526 b: 176
+jmp +2
+a: 526 b: 176
+jmp -7
+a: 526 b: 176
+jio a, +8
+a: 526 b: 176
+inc b
+a: 526 b: 177
+jie a, +4
+a: 526 b: 177
+hlf a
+a: 263 b: 177
+jmp -7
+a: 263 b: 177
+jio a, +8
+a: 263 b: 177
+inc b
+a: 263 b: 178
+jie a, +4
+a: 263 b: 178
+tpl a
+a: 789 b: 178
+inc a
+a: 790 b: 178
+jmp +2
+a: 790 b: 178
+jmp -7
+a: 790 b: 178
+jio a, +8
+a: 790 b: 178
+inc b
+a: 790 b: 179
+jie a, +4
+a: 790 b: 179
+hlf a
+a: 395 b: 179
+jmp -7
+a: 395 b: 179
+jio a, +8
+a: 395 b: 179
+inc b
+a: 395 b: 180
+jie a, +4
+a: 395 b: 180
+tpl a
+a: 1185 b: 180
+inc a
+a: 1186 b: 180
+jmp +2
+a: 1186 b: 180
+jmp -7
+a: 1186 b: 180
+jio a, +8
+a: 1186 b: 180
+inc b
+a: 1186 b: 181
+jie a, +4
+a: 1186 b: 181
+hlf a
+a: 593 b: 181
+jmp -7
+a: 593 b: 181
+jio a, +8
+a: 593 b: 181
+inc b
+a: 593 b: 182
+jie a, +4
+a: 593 b: 182
+tpl a
+a: 1779 b: 182
+inc a
+a: 1780 b: 182
+jmp +2
+a: 1780 b: 182
+jmp -7
+a: 1780 b: 182
+jio a, +8
+a: 1780 b: 182
+inc b
+a: 1780 b: 183
+jie a, +4
+a: 1780 b: 183
+hlf a
+a: 890 b: 183
+jmp -7
+a: 890 b: 183
+jio a, +8
+a: 890 b: 183
+inc b
+a: 890 b: 184
+jie a, +4
+a: 890 b: 184
+hlf a
+a: 445 b: 184
+jmp -7
+a: 445 b: 184
+jio a, +8
+a: 445 b: 184
+inc b
+a: 445 b: 185
+jie a, +4
+a: 445 b: 185
+tpl a
+a: 1335 b: 185
+inc a
+a: 1336 b: 185
+jmp +2
+a: 1336 b: 185
+jmp -7
+a: 1336 b: 185
+jio a, +8
+a: 1336 b: 185
+inc b
+a: 1336 b: 186
+jie a, +4
+a: 1336 b: 186
+hlf a
+a: 668 b: 186
+jmp -7
+a: 668 b: 186
+jio a, +8
+a: 668 b: 186
+inc b
+a: 668 b: 187
+jie a, +4
+a: 668 b: 187
+hlf a
+a: 334 b: 187
+jmp -7
+a: 334 b: 187
+jio a, +8
+a: 334 b: 187
+inc b
+a: 334 b: 188
+jie a, +4
+a: 334 b: 188
+hlf a
+a: 167 b: 188
+jmp -7
+a: 167 b: 188
+jio a, +8
+a: 167 b: 188
+inc b
+a: 167 b: 189
+jie a, +4
+a: 167 b: 189
+tpl a
+a: 501 b: 189
+inc a
+a: 502 b: 189
+jmp +2
+a: 502 b: 189
+jmp -7
+a: 502 b: 189
+jio a, +8
+a: 502 b: 189
+inc b
+a: 502 b: 190
+jie a, +4
+a: 502 b: 190
+hlf a
+a: 251 b: 190
+jmp -7
+a: 251 b: 190
+jio a, +8
+a: 251 b: 190
+inc b
+a: 251 b: 191
+jie a, +4
+a: 251 b: 191
+tpl a
+a: 753 b: 191
+inc a
+a: 754 b: 191
+jmp +2
+a: 754 b: 191
+jmp -7
+a: 754 b: 191
+jio a, +8
+a: 754 b: 191
+inc b
+a: 754 b: 192
+jie a, +4
+a: 754 b: 192
+hlf a
+a: 377 b: 192
+jmp -7
+a: 377 b: 192
+jio a, +8
+a: 377 b: 192
+inc b
+a: 377 b: 193
+jie a, +4
+a: 377 b: 193
+tpl a
+a: 1131 b: 193
+inc a
+a: 1132 b: 193
+jmp +2
+a: 1132 b: 193
+jmp -7
+a: 1132 b: 193
+jio a, +8
+a: 1132 b: 193
+inc b
+a: 1132 b: 194
+jie a, +4
+a: 1132 b: 194
+hlf a
+a: 566 b: 194
+jmp -7
+a: 566 b: 194
+jio a, +8
+a: 566 b: 194
+inc b
+a: 566 b: 195
+jie a, +4
+a: 566 b: 195
+hlf a
+a: 283 b: 195
+jmp -7
+a: 283 b: 195
+jio a, +8
+a: 283 b: 195
+inc b
+a: 283 b: 196
+jie a, +4
+a: 283 b: 196
+tpl a
+a: 849 b: 196
+inc a
+a: 850 b: 196
+jmp +2
+a: 850 b: 196
+jmp -7
+a: 850 b: 196
+jio a, +8
+a: 850 b: 196
+inc b
+a: 850 b: 197
+jie a, +4
+a: 850 b: 197
+hlf a
+a: 425 b: 197
+jmp -7
+a: 425 b: 197
+jio a, +8
+a: 425 b: 197
+inc b
+a: 425 b: 198
+jie a, +4
+a: 425 b: 198
+tpl a
+a: 1275 b: 198
+inc a
+a: 1276 b: 198
+jmp +2
+a: 1276 b: 198
+jmp -7
+a: 1276 b: 198
+jio a, +8
+a: 1276 b: 198
+inc b
+a: 1276 b: 199
+jie a, +4
+a: 1276 b: 199
+hlf a
+a: 638 b: 199
+jmp -7
+a: 638 b: 199
+jio a, +8
+a: 638 b: 199
+inc b
+a: 638 b: 200
+jie a, +4
+a: 638 b: 200
+hlf a
+a: 319 b: 200
+jmp -7
+a: 319 b: 200
+jio a, +8
+a: 319 b: 200
+inc b
+a: 319 b: 201
+jie a, +4
+a: 319 b: 201
+tpl a
+a: 957 b: 201
+inc a
+a: 958 b: 201
+jmp +2
+a: 958 b: 201
+jmp -7
+a: 958 b: 201
+jio a, +8
+a: 958 b: 201
+inc b
+a: 958 b: 202
+jie a, +4
+a: 958 b: 202
+hlf a
+a: 479 b: 202
+jmp -7
+a: 479 b: 202
+jio a, +8
+a: 479 b: 202
+inc b
+a: 479 b: 203
+jie a, +4
+a: 479 b: 203
+tpl a
+a: 1437 b: 203
+inc a
+a: 1438 b: 203
+jmp +2
+a: 1438 b: 203
+jmp -7
+a: 1438 b: 203
+jio a, +8
+a: 1438 b: 203
+inc b
+a: 1438 b: 204
+jie a, +4
+a: 1438 b: 204
+hlf a
+a: 719 b: 204
+jmp -7
+a: 719 b: 204
+jio a, +8
+a: 719 b: 204
+inc b
+a: 719 b: 205
+jie a, +4
+a: 719 b: 205
+tpl a
+a: 2157 b: 205
+inc a
+a: 2158 b: 205
+jmp +2
+a: 2158 b: 205
+jmp -7
+a: 2158 b: 205
+jio a, +8
+a: 2158 b: 205
+inc b
+a: 2158 b: 206
+jie a, +4
+a: 2158 b: 206
+hlf a
+a: 1079 b: 206
+jmp -7
+a: 1079 b: 206
+jio a, +8
+a: 1079 b: 206
+inc b
+a: 1079 b: 207
+jie a, +4
+a: 1079 b: 207
+tpl a
+a: 3237 b: 207
+inc a
+a: 3238 b: 207
+jmp +2
+a: 3238 b: 207
+jmp -7
+a: 3238 b: 207
+jio a, +8
+a: 3238 b: 207
+inc b
+a: 3238 b: 208
+jie a, +4
+a: 3238 b: 208
+hlf a
+a: 1619 b: 208
+jmp -7
+a: 1619 b: 208
+jio a, +8
+a: 1619 b: 208
+inc b
+a: 1619 b: 209
+jie a, +4
+a: 1619 b: 209
+tpl a
+a: 4857 b: 209
+inc a
+a: 4858 b: 209
+jmp +2
+a: 4858 b: 209
+jmp -7
+a: 4858 b: 209
+jio a, +8
+a: 4858 b: 209
+inc b
+a: 4858 b: 210
+jie a, +4
+a: 4858 b: 210
+hlf a
+a: 2429 b: 210
+jmp -7
+a: 2429 b: 210
+jio a, +8
+a: 2429 b: 210
+inc b
+a: 2429 b: 211
+jie a, +4
+a: 2429 b: 211
+tpl a
+a: 7287 b: 211
+inc a
+a: 7288 b: 211
+jmp +2
+a: 7288 b: 211
+jmp -7
+a: 7288 b: 211
+jio a, +8
+a: 7288 b: 211
+inc b
+a: 7288 b: 212
+jie a, +4
+a: 7288 b: 212
+hlf a
+a: 3644 b: 212
+jmp -7
+a: 3644 b: 212
+jio a, +8
+a: 3644 b: 212
+inc b
+a: 3644 b: 213
+jie a, +4
+a: 3644 b: 213
+hlf a
+a: 1822 b: 213
+jmp -7
+a: 1822 b: 213
+jio a, +8
+a: 1822 b: 213
+inc b
+a: 1822 b: 214
+jie a, +4
+a: 1822 b: 214
+hlf a
+a: 911 b: 214
+jmp -7
+a: 911 b: 214
+jio a, +8
+a: 911 b: 214
+inc b
+a: 911 b: 215
+jie a, +4
+a: 911 b: 215
+tpl a
+a: 2733 b: 215
+inc a
+a: 2734 b: 215
+jmp +2
+a: 2734 b: 215
+jmp -7
+a: 2734 b: 215
+jio a, +8
+a: 2734 b: 215
+inc b
+a: 2734 b: 216
+jie a, +4
+a: 2734 b: 216
+hlf a
+a: 1367 b: 216
+jmp -7
+a: 1367 b: 216
+jio a, +8
+a: 1367 b: 216
+inc b
+a: 1367 b: 217
+jie a, +4
+a: 1367 b: 217
+tpl a
+a: 4101 b: 217
+inc a
+a: 4102 b: 217
+jmp +2
+a: 4102 b: 217
+jmp -7
+a: 4102 b: 217
+jio a, +8
+a: 4102 b: 217
+inc b
+a: 4102 b: 218
+jie a, +4
+a: 4102 b: 218
+hlf a
+a: 2051 b: 218
+jmp -7
+a: 2051 b: 218
+jio a, +8
+a: 2051 b: 218
+inc b
+a: 2051 b: 219
+jie a, +4
+a: 2051 b: 219
+tpl a
+a: 6153 b: 219
+inc a
+a: 6154 b: 219
+jmp +2
+a: 6154 b: 219
+jmp -7
+a: 6154 b: 219
+jio a, +8
+a: 6154 b: 219
+inc b
+a: 6154 b: 220
+jie a, +4
+a: 6154 b: 220
+hlf a
+a: 3077 b: 220
+jmp -7
+a: 3077 b: 220
+jio a, +8
+a: 3077 b: 220
+inc b
+a: 3077 b: 221
+jie a, +4
+a: 3077 b: 221
+tpl a
+a: 9231 b: 221
+inc a
+a: 9232 b: 221
+jmp +2
+a: 9232 b: 221
+jmp -7
+a: 9232 b: 221
+jio a, +8
+a: 9232 b: 221
+inc b
+a: 9232 b: 222
+jie a, +4
+a: 9232 b: 222
+hlf a
+a: 4616 b: 222
+jmp -7
+a: 4616 b: 222
+jio a, +8
+a: 4616 b: 222
+inc b
+a: 4616 b: 223
+jie a, +4
+a: 4616 b: 223
+hlf a
+a: 2308 b: 223
+jmp -7
+a: 2308 b: 223
+jio a, +8
+a: 2308 b: 223
+inc b
+a: 2308 b: 224
+jie a, +4
+a: 2308 b: 224
+hlf a
+a: 1154 b: 224
+jmp -7
+a: 1154 b: 224
+jio a, +8
+a: 1154 b: 224
+inc b
+a: 1154 b: 225
+jie a, +4
+a: 1154 b: 225
+hlf a
+a: 577 b: 225
+jmp -7
+a: 577 b: 225
+jio a, +8
+a: 577 b: 225
+inc b
+a: 577 b: 226
+jie a, +4
+a: 577 b: 226
+tpl a
+a: 1731 b: 226
+inc a
+a: 1732 b: 226
+jmp +2
+a: 1732 b: 226
+jmp -7
+a: 1732 b: 226
+jio a, +8
+a: 1732 b: 226
+inc b
+a: 1732 b: 227
+jie a, +4
+a: 1732 b: 227
+hlf a
+a: 866 b: 227
+jmp -7
+a: 866 b: 227
+jio a, +8
+a: 866 b: 227
+inc b
+a: 866 b: 228
+jie a, +4
+a: 866 b: 228
+hlf a
+a: 433 b: 228
+jmp -7
+a: 433 b: 228
+jio a, +8
+a: 433 b: 228
+inc b
+a: 433 b: 229
+jie a, +4
+a: 433 b: 229
+tpl a
+a: 1299 b: 229
+inc a
+a: 1300 b: 229
+jmp +2
+a: 1300 b: 229
+jmp -7
+a: 1300 b: 229
+jio a, +8
+a: 1300 b: 229
+inc b
+a: 1300 b: 230
+jie a, +4
+a: 1300 b: 230
+hlf a
+a: 650 b: 230
+jmp -7
+a: 650 b: 230
+jio a, +8
+a: 650 b: 230
+inc b
+a: 650 b: 231
+jie a, +4
+a: 650 b: 231
+hlf a
+a: 325 b: 231
+jmp -7
+a: 325 b: 231
+jio a, +8
+a: 325 b: 231
+inc b
+a: 325 b: 232
+jie a, +4
+a: 325 b: 232
+tpl a
+a: 975 b: 232
+inc a
+a: 976 b: 232
+jmp +2
+a: 976 b: 232
+jmp -7
+a: 976 b: 232
+jio a, +8
+a: 976 b: 232
+inc b
+a: 976 b: 233
+jie a, +4
+a: 976 b: 233
+hlf a
+a: 488 b: 233
+jmp -7
+a: 488 b: 233
+jio a, +8
+a: 488 b: 233
+inc b
+a: 488 b: 234
+jie a, +4
+a: 488 b: 234
+hlf a
+a: 244 b: 234
+jmp -7
+a: 244 b: 234
+jio a, +8
+a: 244 b: 234
+inc b
+a: 244 b: 235
+jie a, +4
+a: 244 b: 235
+hlf a
+a: 122 b: 235
+jmp -7
+a: 122 b: 235
+jio a, +8
+a: 122 b: 235
+inc b
+a: 122 b: 236
+jie a, +4
+a: 122 b: 236
+hlf a
+a: 61 b: 236
+jmp -7
+a: 61 b: 236
+jio a, +8
+a: 61 b: 236
+inc b
+a: 61 b: 237
+jie a, +4
+a: 61 b: 237
+tpl a
+a: 183 b: 237
+inc a
+a: 184 b: 237
+jmp +2
+a: 184 b: 237
+jmp -7
+a: 184 b: 237
+jio a, +8
+a: 184 b: 237
+inc b
+a: 184 b: 238
+jie a, +4
+a: 184 b: 238
+hlf a
+a: 92 b: 238
+jmp -7
+a: 92 b: 238
+jio a, +8
+a: 92 b: 238
+inc b
+a: 92 b: 239
+jie a, +4
+a: 92 b: 239
+hlf a
+a: 46 b: 239
+jmp -7
+a: 46 b: 239
+jio a, +8
+a: 46 b: 239
+inc b
+a: 46 b: 240
+jie a, +4
+a: 46 b: 240
+hlf a
+a: 23 b: 240
+jmp -7
+a: 23 b: 240
+jio a, +8
+a: 23 b: 240
+inc b
+a: 23 b: 241
+jie a, +4
+a: 23 b: 241
+tpl a
+a: 69 b: 241
+inc a
+a: 70 b: 241
+jmp +2
+a: 70 b: 241
+jmp -7
+a: 70 b: 241
+jio a, +8
+a: 70 b: 241
+inc b
+a: 70 b: 242
+jie a, +4
+a: 70 b: 242
+hlf a
+a: 35 b: 242
+jmp -7
+a: 35 b: 242
+jio a, +8
+a: 35 b: 242
+inc b
+a: 35 b: 243
+jie a, +4
+a: 35 b: 243
+tpl a
+a: 105 b: 243
+inc a
+a: 106 b: 243
+jmp +2
+a: 106 b: 243
+jmp -7
+a: 106 b: 243
+jio a, +8
+a: 106 b: 243
+inc b
+a: 106 b: 244
+jie a, +4
+a: 106 b: 244
+hlf a
+a: 53 b: 244
+jmp -7
+a: 53 b: 244
+jio a, +8
+a: 53 b: 244
+inc b
+a: 53 b: 245
+jie a, +4
+a: 53 b: 245
+tpl a
+a: 159 b: 245
+inc a
+a: 160 b: 245
+jmp +2
+a: 160 b: 245
+jmp -7
+a: 160 b: 245
+jio a, +8
+a: 160 b: 245
+inc b
+a: 160 b: 246
+jie a, +4
+a: 160 b: 246
+hlf a
+a: 80 b: 246
+jmp -7
+a: 80 b: 246
+jio a, +8
+a: 80 b: 246
+inc b
+a: 80 b: 247
+jie a, +4
+a: 80 b: 247
+hlf a
+a: 40 b: 247
+jmp -7
+a: 40 b: 247
+jio a, +8
+a: 40 b: 247
+inc b
+a: 40 b: 248
+jie a, +4
+a: 40 b: 248
+hlf a
+a: 20 b: 248
+jmp -7
+a: 20 b: 248
+jio a, +8
+a: 20 b: 248
+inc b
+a: 20 b: 249
+jie a, +4
+a: 20 b: 249
+hlf a
+a: 10 b: 249
+jmp -7
+a: 10 b: 249
+jio a, +8
+a: 10 b: 249
+inc b
+a: 10 b: 250
+jie a, +4
+a: 10 b: 250
+hlf a
+a: 5 b: 250
+jmp -7
+a: 5 b: 250
+jio a, +8
+a: 5 b: 250
+inc b
+a: 5 b: 251
+jie a, +4
+a: 5 b: 251
+tpl a
+a: 15 b: 251
+inc a
+a: 16 b: 251
+jmp +2
+a: 16 b: 251
+jmp -7
+a: 16 b: 251
+jio a, +8
+a: 16 b: 251
+inc b
+a: 16 b: 252
+jie a, +4
+a: 16 b: 252
+hlf a
+a: 8 b: 252
+jmp -7
+a: 8 b: 252
+jio a, +8
+a: 8 b: 252
+inc b
+a: 8 b: 253
+jie a, +4
+a: 8 b: 253
+hlf a
+a: 4 b: 253
+jmp -7
+a: 4 b: 253
+jio a, +8
+a: 4 b: 253
+inc b
+a: 4 b: 254
+jie a, +4
+a: 4 b: 254
+hlf a
+a: 2 b: 254
+jmp -7
+a: 2 b: 254
+jio a, +8
+a: 2 b: 254
+inc b
+a: 2 b: 255
+jie a, +4
+a: 2 b: 255
+hlf a
+a: 1 b: 255
+jmp -7
+a: 1 b: 255
+jio a, +8
+a: 1 b: 255
+a: 1
+b: 255

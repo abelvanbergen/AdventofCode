@@ -1,1 +1,0 @@
-print(sum(map(len, ["".join(set(i)) for i in open("input.txt", "r").read().replace('\n\n', ' ').replace('\n', '').split(' ')])))

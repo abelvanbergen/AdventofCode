@@ -1,4 +1,3 @@
-import sys
 def set_all_values(number, value, mem):
 	amount = number.count('X')
 	format_nb = "0" + str(amount) + "b"
@@ -15,7 +14,7 @@ def set_all_values(number, value, mem):
 		mem[nb] = value
 	return(mem)
 
-data = open(sys.argv[1], 'r').read().replace('mem[', '').replace(']', '').replace(' ', '').splitlines()
+data = open('input.txt', 'r').read().replace('mem[', '').replace(']', '').replace(' ', '').splitlines()
 mem = dict()
 for line in data:
 	if "mask" in line:

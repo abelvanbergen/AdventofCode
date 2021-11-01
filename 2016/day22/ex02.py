@@ -1,3 +1,8 @@
+from math import sqrt
+
+def coorExits(x, y) -> bool:
+	return x >= 0 and x < size_map and y >= 0 and y < size_map
+
 class StorageNode:
 	def __init__(self, data):
 		elem = data[0].split('-')
@@ -16,8 +21,21 @@ class StorageNode:
 	def fitsIn(self, dest) -> bool:
 		return self.used <= dest.avail
 
+	def move(self, srcs):
+		self.used += srcs.used
+		self.avail -= srcs.used
+		srcs.used = 0
+		srcs.avail = srcs.size
+
 	def empty(self) -> bool:
 		return self.used == 0
+    
+	def getAllOptions(self) -> list:
+		options = list()
+		for dx, dy in [(-1, 0), (1, 0), (0, -1), (0, 1)]:
+			if coorExits(self.x + dx, self.y + dy):
+				options.add((self.x + dx, self.y + dy))
+		return options
 
 data = open("input.txt", "r").read().splitlines()
 nodes = dict()
@@ -25,11 +43,9 @@ for d in data[2:]:
 	node = StorageNode(d.split())
 	nodes[(node.x, node.y)] = node
 
-res = 0
-for key_1 in nodes:
-	node_1 = nodes[key_1]
-	for key_2 in nodes:
-		node_2 = nodes[key_2]
-		if key_1 != key_2 and node_1.empty() == False and node_1.fitsIn(node_2):
-			res += 1
-print(res)
+for key in nodes:
+	if nodes[key].empty() == True:
+		print(nodes[key].x, nodes[key].y)
+
+# ret = 0
+# print(nPuzzle())

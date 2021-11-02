@@ -64,11 +64,22 @@ def trainComp(train):
 
 while(True):
 	trains = sorted(trains, key=trainComp)
-	for trainID, train in enumerate(trains):
+	i = 0
+	while (i < len(trains)):
+		train = trains[i]
 		train.move(traintrack)
 		for toCrash, trainToCrash in enumerate(trains):
-			if trainID != toCrash and train.isCrashedWith(trainToCrash):
-				print(str(train.x) + "," + str(train.y))
-				quit()
-
+			if i != toCrash and train.isCrashedWith(trainToCrash):
+				print("removing trains..")
+				trains.remove(train)
+				trains.remove(trainToCrash)
+				if toCrash < i:
+					i -= 2
+				else:
+					i -= 1
+				break
+		i += 1
+	if (len(trains) == 1):
+		print(str(trains[0].x) + "," + str(trains[0].y))
+		quit()
 

@@ -51,5 +51,5 @@ for r in rooms:
 	if count == 5:
 		all_rooms[room_id] = r
 for key in all_rooms:
-	if "north" in get_rot_string(all_rooms[key], key):
-		print(key, get_rot_string(all_rooms[key], key))
+	# if "north" in get_rot_string(all_rooms[key], key):
+	print(key, get_rot_string(all_rooms[key], key))

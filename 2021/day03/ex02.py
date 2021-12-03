@@ -52,3 +52,7 @@ bi_nb = open("input.txt", "r").read().splitlines()
 ogr = bi_to_dec(find_ogr(bi_nb))
 csr = bi_to_dec(find_csr(bi_nb))
 print(ogr, csr, ogr * csr)
+
+
+
+print(int("11111", 2))

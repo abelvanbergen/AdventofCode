@@ -10,6 +10,3 @@ for instruct in instructions:
 	else:
 		aim += int(nb)
 print(y * x)
-
-#shortest mode
-i=open()

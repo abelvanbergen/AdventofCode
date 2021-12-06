@@ -60,3 +60,10 @@ for nb in input_nbrs:
 		if is_bingo(board):
 			print(get_res_board(board, nb))
 			quit()
+
+
+for board in boards:
+
+for i in range(len(boards)):
+
+for i, board in enumerate(boards):

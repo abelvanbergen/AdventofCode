@@ -114,6 +114,8 @@ def flipTotalMap(totalMap):
 
 size_tile = 8
 
+map[::-1]
+
 data = open("input.txt", 'r').read().split('\n\n')
 tiles = list()
 for d in data:

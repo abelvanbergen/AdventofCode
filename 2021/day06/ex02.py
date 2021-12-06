@@ -1,17 +1,21 @@
-def can_reproduce_x_fishes(day_id, fish_age, amount_of_fish):
+amount_of_days = 256
+
+def can_reproduce_x_fishes(day_of_birth, amount_of_fish):
 	total_fish = 1
-	d_i = [x for x in range(day_id + fish_age + 1, 18 + 1, 7)]
+	d_i = [x for x in range(day_of_birth + 9, amount_of_days + 1, 7)]
+	print(d_i)
 	for i in d_i:
 		total_fish += amount_of_fish[i]
 	return(total_fish)
 
+fishes = [int(x) for x in open("input.txt").read()[:-1].split(',')]
 total = 0
-amount_of_fish = [0] * 19
-fishes = [int(x) for x in open("example.txt").read()[:-1].split(',')]
-for i in range(18, -1, -1):
-	amount_of_fish[i] = can_reproduce_x_fishes(i, 8, amount_of_fish)
-print(amount_of_fish)
-
+amount_of_fish = [0] * (amount_of_days + 1)
+for i in range(amount_of_days, -1, -1):
+	amount_of_fish[i] = can_reproduce_x_fishes(i, amount_of_fish)
 for fish in fishes:
-	total += amount_of_fish[fish]
+	childs = d_i = [x for x in range(fish + 1, amount_of_days + 1, 7)]
+	for child in childs:
+		total += amount_of_fish[child]
+	total += 1
 print(total)

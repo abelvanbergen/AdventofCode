@@ -1,96 +1,83 @@
-
-def decode(values):
-	letter_to_value = ["x"] * 7
-	letter_in_value = dict()
-	unique_letters = {len(l):l for l in values if len(l) in [2, 3, 4, 7]}
-	for key in unique_letters:
-		value = unique_letters[key]
-		if len(value) == 2:
-			letter_in_value[1] = value
-		elif len(value) == 3:
-			letter_in_value[7] = value
-		elif len(value) == 4:
-			letter_in_value[4] = value
-		elif len(value) == 7:
-			letter_in_value[8] = value
-
-	while (letter_to_value.count("x") != 0):
-		print(letter_to_value)
-		if 2 in letter_in_value.keys() and 3 in letter_in_value.keys():
-			for char in letter_in_value[3]:
-				if char not in letter_in_value[2]:
-					letter_to_value[0] = char
-		for value in values:
-			if len(value) == 5 and 2 in unique_letters.keys():
-				count = 0
-				for char in unique_letters[2]:
-					if char in value:
-						count += 1
-				if count == 2:
-					letter_in_value[3] = value
-		for value in values:
-			if len(value) == 6 and 3 in letter_in_value.keys():
-				count = 0
-				for char in value:
-					if char in letter_in_value[3]:
-						count += 1
-				if count == 5:
-					letter_in_value[6] = value
-		for value in values:
-			if len(value) == 5 and 6 in letter_in_value.keys():
-				count = 0
-				for char in value:
-					if char in letter_in_value[6]:
-						count += 1
-				if count == 5:
-					letter_in_value[5] = value
-		if 2 in letter_in_value.keys() and 3 in letter_in_value.keys() and 4 in letter_in_value.keys():
-			for char in letter_in_value[4]:
-				if char in letter_in_value[3] and char not in letter_in_value[2]:
-					letter_to_value[3] = char
-				if char not in letter_in_value[3]:
-					letter_to_value[1] = char
-		if letter_to_value[3] != "x":
-			for value in values:
-				if len(value) == 8:
-					if letter_to_value[3] not in value:
-						letter_in_value[0] = value
-		if letter_in_value[1] != "x":
-			for value in values:
-				if len(value) == 5 and letter_in_value[1] in value:
-					letter_in_value[5] = value
-		if 5 in letter_in_value.keys() and 1 in letter_in_value.keys():
-			if letter_in_value[1][0] in letter_in_value[5]:
-				letter_to_value[5] = letter_in_value[1][0]
-				letter_to_value[2] = letter_in_value[1][1]
+def decode(numbers):
+	place_to_letter = ["x"] * 7
+	digit_to_code = [""] * 10
+	for code in numbers:
+		if (len(code) == 2):
+			digit_to_code[1] = code
+		elif (len(code) == 3):
+			digit_to_code[7] = code
+		elif (len(code) == 4):
+			digit_to_code[4] = code
+		elif (len(code) == 7):
+			digit_to_code[8] = code
+	for char in digit_to_code[7]:
+		if char not in digit_to_code[1]:
+			place_to_letter[0] = char
+	for code in numbers:
+		if len(code) == 5:
+			count = 0
+			for char in digit_to_code[1]:
+				if char in code:
+					count += 1
+			if count == 2:
+				digit_to_code[3] = code
+	for char in digit_to_code[4]:
+		if char not in digit_to_code[1]:
+			if char in digit_to_code[3]:
+				place_to_letter[3] = char
 			else:
-				letter_to_value[5] = letter_in_value[1][1]
-				letter_to_value[2] = letter_in_value[1][0]
-		for value in values:
-			if len(value) == 6:
-				count = 0
-				for char in value:
-					if char in  letter_to_value:
-						count += 1
-				if count == 5:
-					for char in value:
-						if char not in letter_to_value:
-							letter_to_value[6] = char
-		if letter_to_value.count("x") == 1:
-			for char in "abcdefg":
-				if char not in letter_to_value:
-					letter_to_value[letter_to_value.index('x')] = char
-	return (letter_to_value)
+				place_to_letter[1] = char
+	for code in numbers:
+		if len(code) == 6:
+			count = 0
+			found = digit_to_code[4] + place_to_letter[0]
+			for char in found:
+				if char in code:
+					count += 1
+			if count == 5:
+				digit_to_code[9] = code
+	for code in numbers:
+		if len(code) == 5:
+			count = 0
+			for char in code:
+				if char in digit_to_code[9]:
+					count += 1
+			if count == 4:
+				print("hij vind 2")
+				digit_to_code[2] = code
+				if digit_to_code[1][0] in code:
+					place_to_letter[2] = digit_to_code[1][0]
+					place_to_letter[5] = digit_to_code[1][1]
+				else:
+					place_to_letter[2] = digit_to_code[1][1]
+					place_to_letter[5] = digit_to_code[1][0]
+	for char in digit_to_code[9]:
+		if char not in place_to_letter:
+			place_to_letter[6] = char
+	for char in "abcdefg":
+		if char not in place_to_letter:
+			place_to_letter[4] = char
+	return (place_to_letter)
 
-lines = open("e", "r").read().splitlines()
+def get_number(letters, output_value):
+	total = 0
+	representation = {"012456":0, "25":1, "02346":2, "02356":3, "1235":4, "01356":5, "013456":6, "025":7, "0123456":8, "012356":9}
+	for nb in output_value:
+		total *= 10
+		new_number = []
+		for char in nb:
+			new_number.append(letters.index(char))
+		new_number = sorted(new_number)
+		str_nbr = "".join([str(x) for x in new_number])
+		total += representation[str_nbr]
+	return (total)
+
+lines = open("input.txt", "r").read().splitlines()
+total = 0
 for line in lines:
 	input_value, output_value = line.split(' | ')
 	input_value = input_value.split()
 	output_value = output_value.split()
-	all_values = output_value + input_value
-	print(all_values)
-	letters = decode(all_values)
-	print("hij komt er ooit uit")
-	print(letters)
-	quit()
-
+	letters = decode(input_value)
+	total += get_number(letters, output_value)
+print(total)

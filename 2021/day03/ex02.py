@@ -11,11 +11,11 @@ def find_ogr(nbrs):
 		new_list = []
 		if (2*count_vertical(nbrs, i, '1')>=len(nbrs)):
 			for elem in nbrs:
-				if elem[i] != '0':
+				if elem[i] == '1':
 					new_list.append(elem)
 		else:
 			for elem in nbrs:
-				if elem[i] != '1':
+				if elem[i] == '0':
 					new_list.append(elem)
 		nbrs = new_list
 		i+=1
@@ -28,11 +28,11 @@ def find_csr(nbrs):
 		new_list = []
 		if (2*count_vertical(nbrs, i, '1')>=len(nbrs)):
 			for elem in nbrs:
-				if elem[i] != '1':
+				if elem[i] == '0':
 					new_list.append(elem)
 		else:
 			for elem in nbrs:
-				if elem[i] != '0':
+				if elem[i] == '1':
 					new_list.append(elem)
 		nbrs = new_list
 		i+=1

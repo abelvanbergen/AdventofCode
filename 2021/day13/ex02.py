@@ -8,7 +8,7 @@ def flip_coor(coor, char, foldline):
 
 coor, folds = open("input.txt").read().split("\n\n")
 coors = {(int(l.split(',')[0]), int(l.split(',')[1])) for l in coor.split()}
-for f in folds.split('\n')[:-1]:
+for f in folds.splitlines():
 	new_coor = set()
 	foldline = int(f[f.index('=') + 1:])
 	fold_dir = f[f.index('=') - 1]

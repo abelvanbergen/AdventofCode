@@ -1,0 +1,1 @@
+print(sum(int("348159267"[3*(ord(i)-65)+ord(k)-88])for i,j,k,l in open("i")))

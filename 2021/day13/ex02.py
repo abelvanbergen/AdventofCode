@@ -6,7 +6,7 @@ def flip_coor(coor, char, foldline):
 		y = 2*foldline - y
 	return (x, y)
 
-coor, folds = open("input.txt").read().split("\n\n")
+coor, folds = open("big_input.txt").read().split("\n\n")
 coors = {(int(l.split(',')[0]), int(l.split(',')[1])) for l in coor.split()}
 for f in folds.splitlines():
 	new_coor = set()

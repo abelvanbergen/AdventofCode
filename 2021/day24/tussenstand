@@ -1,0 +1,31 @@
+A -> N
+B -> M
+C -> F
+D -> E
+G -> H
+I -> J
+K -> L
+
+A + 15		N - 11
+B + 16		M - 8
+C + 4		F - 10
+D + 14		E - 8
+G + 1		H - 3
+I + 3		J - 4
+K + 5		L - 5
+
+A + 4 == N
+B + 8 == M
+C - 6 == F
+D + 6 == E
+G - 2 == H
+I - 1 == J
+K + 0 == L
+
+max:
+ABCDEFGHIJKLMN
+51939397989999
+
+min:
+ABCDEFGHIJKLMN
+11717131211195

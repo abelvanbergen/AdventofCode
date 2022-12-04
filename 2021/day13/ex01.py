@@ -17,3 +17,68 @@ for f in folds.split('\n'):
 	coors = new_coor
 	print(len(coors))
 	quit()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+coor, folds = open("input.txt").read().split("\n\n")
+coors = {(int(l.split(',')[0]), int(l.split(',')[1])) for l in coor.split()}
+coors = set()
+for line in coor.split('\n'):
+	x, y = [int(i) for line.split(',')]
+	coors.add((x, y))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

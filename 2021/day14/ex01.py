@@ -14,8 +14,8 @@ for step in range(10):
 	
 	new_poly += poly[-1]
 	poly = new_poly
-	print(step)
-	# print(poly)
+	# print(step)
+	print(poly)
  
 total = dict()
 for char in set(poly):

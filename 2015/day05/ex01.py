@@ -4,6 +4,7 @@ def amount_of_vowels(string):
 		if char in "aeiou":
 			ret+= 1
 	return ret
+
 def is_2_char_in_row(string):
 	for i in range(len(string) - 1):
 		if string[i] == string[i + 1]:

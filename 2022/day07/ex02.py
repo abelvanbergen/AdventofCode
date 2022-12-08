@@ -38,8 +38,4 @@ for line in lines[1:]:
 dir_sizes = {}
 calc_dir_size(["/"])
 needed_space = 30_000_000 - (70000000 - dir_sizes[tuple(["/"])])
-smallest = dir_sizes[tuple(["/"])]
-for value in dir_sizes.values():
-	if value > needed_space and value < smallest:
-		smallest = value
-print(smallest)
+print(min(x for x in dir_sizes.values() if x - needed_space >= 0))

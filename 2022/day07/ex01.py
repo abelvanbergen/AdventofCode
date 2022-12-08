@@ -37,6 +37,4 @@ for line in lines[1:]:
 		files_per_dir[tuple(current_dir)].append(tokens[1])
 dir_sizes = {}
 calc_dir_size(["/"])
-for key, value in dir_sizes.items():
-	print(key, value)
 print(sum(dir_sizes[key] for key in dir_sizes if dir_sizes[key] <= 100000))

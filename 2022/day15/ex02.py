@@ -9,14 +9,8 @@ for line in open("input.txt").read().splitlines():
 	mh_dis = manhatten_distance((sx, sy), (bx, by))
 	sensors.add((sx, sy, mh_dis))
 
-line_y= 2000000
-line_x = set()
-for sensor in sensors:
-	distance_to_line = abs(sensor[1] - line_y)
-	start = sensor[0] - (sensor[2] - distance_to_line)
-	end = sensor[0] + (sensor[2] - distance_to_line)
-	for x in range(start, end):
-		line_x.add(x)
-print(len(line_x))
-
-	
+i = 0	
+for x in range(4_000):
+	for y in range(4_000_000):
+		i +=1
+print(i)

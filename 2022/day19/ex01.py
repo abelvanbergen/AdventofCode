@@ -1,9 +1,8 @@
 def material_pos(material):
-	match material:
-		case "ore": return 0
-		case "clay": return 1
-		case "obsidian": return 2
-		case "geode": return 3
+	if material ==  "ore": return 0
+	elif material == "clay": return 1
+	elif material == "obsidian": return 2
+	else: return 3
 
 class Robot:
 	def __init__(self, tokens):
@@ -20,6 +19,17 @@ class Robot:
 		ret += f"Cost: {str(self.cost)}\n"
 		ret += f"Earn: {str(self.earn)}\n"
 		return ret
+	
+	def can_be_build(self, ores):
+		for i in range(4):
+			if ores[i] < self.cost[i]:
+				return False
+		return True
+
+	def build_robot(self, ores, active_robots):
+		new_ores = [ores[i] - self.cost[i] for i in range(4)]
+		new_robots = [active_robots[i] + self.earn[i] for i in range(4)]
+		return new_ores, new_robots
 
 def parse_robots(line):
 	robots = []
@@ -29,16 +39,38 @@ def parse_robots(line):
 		robots.append(robot)
 	return robots
 
-def get_max_geodes(robots_blueprints):
-	robots = [1, 0, 0, 0]
+def collect_ores(geodes, robots):
+	return [geodes[i] + robots[i] for i in range(4)]
+def get_max_geodes(time, amount_ores, amount_robots):
+	global states
+	if (time, tuple(amount_ores), tuple(amount_robots)) in states:
+		return 
+	states.add((time, tuple(amount_ores), tuple(amount_robots)))
+	if time <= 0:
+		all_geodes.append(amount_ores[3])
+		return
+	for bp in robotsBluePrints:
+		if bp.can_be_build(amount_ores):
+			new_ores, new_robots = bp.build_robot(amount_ores, amount_robots)
+			new_ores = collect_ores(new_ores, amount_robots)
+			get_max_geodes(time - 1, new_ores, new_robots)
+	new_ores = collect_ores(amount_ores, amount_robots)
+	get_max_geodes(time - 1, new_ores, amount_robots)
 
 
 total = 0
+
+times = 0
 lines = open("example.txt").read().splitlines()
 for line in lines:
-	robots = parse_robots(line)
-	for r in robots:
-		print(r)
+	all_geodes = list()
+	states = set()
+	amount_ores = [0, 0, 0, 0]
+	amount_robots = [1, 0, 0, 0]
+	robotsBluePrints = parse_robots(line)
+	get_max_geodes(30, amount_ores, amount_robots)
+	print(max(all_geodes))
 	quit()
+	
 
 

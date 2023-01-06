@@ -41,8 +41,10 @@ def parse_robots(line):
 
 def collect_ores(geodes, robots):
 	return [geodes[i] + robots[i] for i in range(4)]
+
 def get_max_geodes(time, amount_ores, amount_robots):
 	global states
+	global times
 	if (time, tuple(amount_ores), tuple(amount_robots)) in states:
 		return 
 	states.add((time, tuple(amount_ores), tuple(amount_robots)))
@@ -50,6 +52,12 @@ def get_max_geodes(time, amount_ores, amount_robots):
 		all_geodes.append(amount_ores[3])
 		return
 	for bp in robotsBluePrints:
+		times += 1
+		if (time == 25):
+			print("25")
+		if (time == 30):
+			print(bp)
+			# print(30)
 		if bp.can_be_build(amount_ores):
 			new_ores, new_robots = bp.build_robot(amount_ores, amount_robots)
 			new_ores = collect_ores(new_ores, amount_robots)

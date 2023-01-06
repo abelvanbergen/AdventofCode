@@ -2,16 +2,20 @@ grid, instructions_line = open("input.txt").read().split("\n\n")
 
 open_space = set()
 wall = set()
+all_spots = set()
 grid = grid.splitlines()
 for y, line in enumerate(grid, 1):
 	for x, char in enumerate(line, 1):
 		if char == ".":
+			all_spots.add((x, y))
 			open_space.add((x, y))
 		elif char == "#":
+			all_spots.add((x, y))
 			wall.add((x, y))
 
-i = 0;
+i = 0
 instructions = []
+instructions_line= instructions_line[:-1]
 while (i < len(instructions_line)):
 	j = 0
 	while (instructions_line[i:i+j+1].isdigit() and i + j < len(instructions_line)):
@@ -27,10 +31,14 @@ def get_next_loc(x, y, dx, dy, distance):
 			break 
 		if (x + dx, y + dy) not in open_space:
 			next_x, next_y = x, y
-			if  x > 0: next_x = min(i for i,j in open_space if j == y)
-			elif x < 0: next_x = max(i for i,j in open_space if j == y)
-			elif y > 0: next_y = min(j for i,j in open_space if i == x)
-			else: next_y = max(j for i,j in open_space if i == x)
+			if dx > 0:
+				next_x = min(i for i,j in all_spots if j == y)
+			elif dx < 0:
+				next_x = max(i for i,j in all_spots if j == y)
+			elif dy > 0:
+				next_y = min(j for i,j in all_spots if i == x)
+			else:
+				next_y = max(j for i,j in all_spots if i == x)
 			if (next_x, next_y) in wall:
 				return (x, y)
 			else:
@@ -53,7 +61,7 @@ for instruction in instructions:
 			dx,dy = dy,dx*-1
 
 points_for_dir = {(1, 0): 0, (0, 1): 1, (-1, 0): 2, (0, -1): 3}
-print(x * 1000 + y * 4 + points_for_dir[(dx, dy)])
+print(y * 1000 + x * 4 + points_for_dir[(dx, dy)])
 
 
 
